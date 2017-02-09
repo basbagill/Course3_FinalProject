@@ -71,7 +71,8 @@ mean_std_data <- select(uniquecols_data_train_test, contains("subject"), contain
 
 ## Create a tidy data set with the average of each variable for each activity and each subject
 grouped_mean_std_data <- group_by(mean_std_data, subject, activity) # group by subject and activity
-mean_grouped_mean_std_data <- aggregate(grouped_mean_std_data[, 3:88], # calculate mean of each variable
+# calculate mean of each variable
+mean_grouped_mean_std_data <- aggregate(grouped_mean_std_data[, 3:88], 
         list(grouped_mean_std_data$subject, grouped_mean_std_data$activity), mean)
 
 ## Rename first two columns as "subject" and "activity"
