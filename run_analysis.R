@@ -81,3 +81,6 @@ colnames(mean_grouped_mean_std_data)[colnames(mean_grouped_mean_std_data)=="Grou
 
 ## Output the data set
 mean_grouped_mean_std_data
+
+## Write output file
+write.table(mean_grouped_mean_std_data, file = "tidy_data.txt", row.names = FALSE)
