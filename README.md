@@ -43,7 +43,7 @@ Next duplicate column names are removed.
 
 Next only the mean and standard deviation measurements are extracted. 
 
-The dataset is the grouped by subject and activity, and the mean of each variable is calculated. This process removes the column names for "subject" and "activity", so these are added in again here. 
+The dataset is then grouped by subject and activity, and the mean of each variable is calculated. This process removes the column names for "subject" and "activity", so these are added in again here. 
 
 Finally the dataset is outputted as mean_grouped_mean_std_data, and the data is written to a text file using write.table. 
 
