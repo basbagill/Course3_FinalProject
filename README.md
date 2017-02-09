@@ -37,7 +37,7 @@ Next the file accomplishes the third interim objective of using descriptive acti
 
 Next the dataset's columns are named with "subject" as the first column, "activity" as the second column, and the 561 features as the remaining columns. The features variable names come from the file features.txt included in the dataset.
 
-The next step is to merge the data. cbind is used to first the combine the features and activities, then the subjects are added to this dataframe. Finally the test and train data are combined using rbind.
+The next step is to merge the data. cbind is used to first combine the features and activities, then the subjects are added to this dataframe. Finally the test and train data are combined using rbind.
 
 Next duplicate column names are removed.
 
