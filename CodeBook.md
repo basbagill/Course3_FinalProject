@@ -17,6 +17,7 @@ ACTIVITIES (from activity_labels.txt, provided in the dataset)
 4 = sitting
 5 = standing
 6 = laying
+
 The activity codes are renamed with their string equivalents, and the resulting dataframes are activities_train and activities_test.
 
 SUBJECTS 
